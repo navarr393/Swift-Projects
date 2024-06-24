@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B015F63E2C1B8455006B7009 /* GraphsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B015F63D2C1B8455006B7009 /* GraphsView.swift */; };
+		B01F092F2C1A1E5C00A09389 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01F092E2C1A1E5C00A09389 /* HomeView.swift */; };
+		B0545AF12C1FF1A700063EF4 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0545AF02C1FF1A700063EF4 /* NotificationHandler.swift */; };
+		B0636DB62C26A7DC006E4C55 /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0636DB52C26A7DC006E4C55 /* ActivityCardView.swift */; };
+		B0636DB82C26AB09006E4C55 /* DisplayActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0636DB72C26AB09006E4C55 /* DisplayActivityCardView.swift */; };
+		B0636DBA2C26AB92006E4C55 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0636DB92C26AB92006E4C55 /* HealthManager.swift */; };
+		B06DCC312C18E18100DF7211 /* TimeSpentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06DCC302C18E18100DF7211 /* TimeSpentView.swift */; };
+		B07737B12BE414B600349F29 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07737B02BE414B600349F29 /* DetailView.swift */; };
+		B07CA8AC2BE2D4F500DA5DBB /* HabitGuru_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07CA8AB2BE2D4F500DA5DBB /* HabitGuru_2_0App.swift */; };
+		B07CA8AE2BE2D4F500DA5DBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07CA8AD2BE2D4F500DA5DBB /* ContentView.swift */; };
+		B07CA8B02BE2D4F600DA5DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07CA8AF2BE2D4F600DA5DBB /* Assets.xcassets */; };
+		B07CA8B32BE2D4F600DA5DBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07CA8B22BE2D4F600DA5DBB /* Preview Assets.xcassets */; };
+		B07CA8BD2BE2D4F600DA5DBB /* HabitGuru_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07CA8BC2BE2D4F600DA5DBB /* HabitGuru_2_0Tests.swift */; };
+		B07CA8C72BE2D4F600DA5DBB /* HabitGuru_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07CA8C62BE2D4F600DA5DBB /* HabitGuru_2_0UITests.swift */; };
+		B07CA8C92BE2D4F600DA5DBB /* HabitGuru_2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07CA8C82BE2D4F600DA5DBB /* HabitGuru_2_0UITestsLaunchTests.swift */; };
+		B07CA8D62BE2D52000DA5DBB /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07CA8D52BE2D52000DA5DBB /* Habit.swift */; };
+		B07CA8D82BE2D76900DA5DBB /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07CA8D72BE2D76900DA5DBB /* AddHabitView.swift */; };
+		B0A6CADF2BF2CBF4007F6FEF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A6CADE2BF2CBF4007F6FEF /* StoreKit.framework */; };
+		B0C7871F2BFBF49B00318561 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C7871E2BFBF49B00318561 /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B07CA8B92BE2D4F600DA5DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07CA8A02BE2D4F500DA5DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07CA8A72BE2D4F500DA5DBB;
+			remoteInfo = "HabitGuru 2.0";
+		};
+		B07CA8C32BE2D4F600DA5DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07CA8A02BE2D4F500DA5DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07CA8A72BE2D4F500DA5DBB;
+			remoteInfo = "HabitGuru 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B015F63D2C1B8455006B7009 /* GraphsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsView.swift; sourceTree = "<group>"; };
+		B01F092E2C1A1E5C00A09389 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0545AF02C1FF1A700063EF4 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		B0636DB52C26A7DC006E4C55 /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
+		B0636DB72C26AB09006E4C55 /* DisplayActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayActivityCardView.swift; sourceTree = "<group>"; };
+		B0636DB92C26AB92006E4C55 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		B0636DBB2C26AF9D006E4C55 /* HabitGuru 2.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HabitGuru 2.0.entitlements"; sourceTree = "<group>"; };
+		B06DCC302C18E18100DF7211 /* TimeSpentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSpentView.swift; sourceTree = "<group>"; };
+		B07737B02BE414B600349F29 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B07CA8A82BE2D4F500DA5DBB /* HabitGuru 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HabitGuru 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07CA8AB2BE2D4F500DA5DBB /* HabitGuru_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGuru_2_0App.swift; sourceTree = "<group>"; };
+		B07CA8AD2BE2D4F500DA5DBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B07CA8AF2BE2D4F600DA5DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B07CA8B22BE2D4F600DA5DBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B07CA8B82BE2D4F600DA5DBB /* HabitGuru 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HabitGuru 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07CA8BC2BE2D4F600DA5DBB /* HabitGuru_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGuru_2_0Tests.swift; sourceTree = "<group>"; };
+		B07CA8C22BE2D4F600DA5DBB /* HabitGuru 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HabitGuru 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07CA8C62BE2D4F600DA5DBB /* HabitGuru_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGuru_2_0UITests.swift; sourceTree = "<group>"; };
+		B07CA8C82BE2D4F600DA5DBB /* HabitGuru_2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGuru_2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B07CA8D52BE2D52000DA5DBB /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		B07CA8D72BE2D76900DA5DBB /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		B0A6CADE2BF2CBF4007F6FEF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B0A6CAE02BF2DCDF007F6FEF /* HabitGuru-2-0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HabitGuru-2-0-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B0C7871E2BFBF49B00318561 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B07CA8A52BE2D4F500DA5DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A6CADF2BF2CBF4007F6FEF /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07CA8B52BE2D4F600DA5DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07CA8BF2BE2D4F600DA5DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B07CA89F2BE2D4F500DA5DBB = {
+			isa = PBXGroup;
+			children = (
+				B07CA8AA2BE2D4F500DA5DBB /* HabitGuru 2.0 */,
+				B07CA8BB2BE2D4F600DA5DBB /* HabitGuru 2.0Tests */,
+				B07CA8C52BE2D4F600DA5DBB /* HabitGuru 2.0UITests */,
+				B07CA8A92BE2D4F500DA5DBB /* Products */,
+				B0A6CADD2BF2CBF4007F6FEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B07CA8A92BE2D4F500DA5DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B07CA8A82BE2D4F500DA5DBB /* HabitGuru 2.0.app */,
+				B07CA8B82BE2D4F600DA5DBB /* HabitGuru 2.0Tests.xctest */,
+				B07CA8C22BE2D4F600DA5DBB /* HabitGuru 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B07CA8AA2BE2D4F500DA5DBB /* HabitGuru 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B0636DBB2C26AF9D006E4C55 /* HabitGuru 2.0.entitlements */,
+				B0A6CAE02BF2DCDF007F6FEF /* HabitGuru-2-0-Info.plist */,
+				B07CA8AB2BE2D4F500DA5DBB /* HabitGuru_2_0App.swift */,
+				B07CA8D52BE2D52000DA5DBB /* Habit.swift */,
+				B07CA8AD2BE2D4F500DA5DBB /* ContentView.swift */,
+				B0C7871E2BFBF49B00318561 /* SplashScreenView.swift */,
+				B07737B02BE414B600349F29 /* DetailView.swift */,
+				B0545AF02C1FF1A700063EF4 /* NotificationHandler.swift */,
+				B015F63D2C1B8455006B7009 /* GraphsView.swift */,
+				B06DCC302C18E18100DF7211 /* TimeSpentView.swift */,
+				B01F092E2C1A1E5C00A09389 /* HomeView.swift */,
+				B0636DB52C26A7DC006E4C55 /* ActivityCardView.swift */,
+				B0636DB72C26AB09006E4C55 /* DisplayActivityCardView.swift */,
+				B0636DB92C26AB92006E4C55 /* HealthManager.swift */,
+				B07CA8D72BE2D76900DA5DBB /* AddHabitView.swift */,
+				B07CA8AF2BE2D4F600DA5DBB /* Assets.xcassets */,
+				B07CA8B12BE2D4F600DA5DBB /* Preview Content */,
+			);
+			path = "HabitGuru 2.0";
+			sourceTree = "<group>";
+		};
+		B07CA8B12BE2D4F600DA5DBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B07CA8B22BE2D4F600DA5DBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B07CA8BB2BE2D4F600DA5DBB /* HabitGuru 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B07CA8BC2BE2D4F600DA5DBB /* HabitGuru_2_0Tests.swift */,
+			);
+			path = "HabitGuru 2.0Tests";
+			sourceTree = "<group>";
+		};
+		B07CA8C52BE2D4F600DA5DBB /* HabitGuru 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B07CA8C62BE2D4F600DA5DBB /* HabitGuru_2_0UITests.swift */,
+				B07CA8C82BE2D4F600DA5DBB /* HabitGuru_2_0UITestsLaunchTests.swift */,
+			);
+			path = "HabitGuru 2.0UITests";
+			sourceTree = "<group>";
+		};
+		B0A6CADD2BF2CBF4007F6FEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0A6CADE2BF2CBF4007F6FEF /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B07CA8A72BE2D4F500DA5DBB /* HabitGuru 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07CA8CC2BE2D4F600DA5DBB /* Build configuration list for PBXNativeTarget "HabitGuru 2.0" */;
+			buildPhases = (
+				B07CA8A42BE2D4F500DA5DBB /* Sources */,
+				B07CA8A52BE2D4F500DA5DBB /* Frameworks */,
+				B07CA8A62BE2D4F500DA5DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HabitGuru 2.0";
+			productName = "HabitGuru 2.0";
+			productReference = B07CA8A82BE2D4F500DA5DBB /* HabitGuru 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B07CA8B72BE2D4F600DA5DBB /* HabitGuru 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07CA8CF2BE2D4F600DA5DBB /* Build configuration list for PBXNativeTarget "HabitGuru 2.0Tests" */;
+			buildPhases = (
+				B07CA8B42BE2D4F600DA5DBB /* Sources */,
+				B07CA8B52BE2D4F600DA5DBB /* Frameworks */,
+				B07CA8B62BE2D4F600DA5DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07CA8BA2BE2D4F600DA5DBB /* PBXTargetDependency */,
+			);
+			name = "HabitGuru 2.0Tests";
+			productName = "HabitGuru 2.0Tests";
+			productReference = B07CA8B82BE2D4F600DA5DBB /* HabitGuru 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B07CA8C12BE2D4F600DA5DBB /* HabitGuru 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07CA8D22BE2D4F600DA5DBB /* Build configuration list for PBXNativeTarget "HabitGuru 2.0UITests" */;
+			buildPhases = (
+				B07CA8BE2BE2D4F600DA5DBB /* Sources */,
+				B07CA8BF2BE2D4F600DA5DBB /* Frameworks */,
+				B07CA8C02BE2D4F600DA5DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07CA8C42BE2D4F600DA5DBB /* PBXTargetDependency */,
+			);
+			name = "HabitGuru 2.0UITests";
+			productName = "HabitGuru 2.0UITests";
+			productReference = B07CA8C22BE2D4F600DA5DBB /* HabitGuru 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B07CA8A02BE2D4F500DA5DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B07CA8A72BE2D4F500DA5DBB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B07CA8B72BE2D4F600DA5DBB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B07CA8A72BE2D4F500DA5DBB;
+					};
+					B07CA8C12BE2D4F600DA5DBB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B07CA8A72BE2D4F500DA5DBB;
+					};
+				};
+			};
+			buildConfigurationList = B07CA8A32BE2D4F500DA5DBB /* Build configuration list for PBXProject "HabitGuru 2.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B07CA89F2BE2D4F500DA5DBB;
+			productRefGroup = B07CA8A92BE2D4F500DA5DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B07CA8A72BE2D4F500DA5DBB /* HabitGuru 2.0 */,
+				B07CA8B72BE2D4F600DA5DBB /* HabitGuru 2.0Tests */,
+				B07CA8C12BE2D4F600DA5DBB /* HabitGuru 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B07CA8A62BE2D4F500DA5DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07CA8B32BE2D4F600DA5DBB /* Preview Assets.xcassets in Resources */,
+				B07CA8B02BE2D4F600DA5DBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07CA8B62BE2D4F600DA5DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07CA8C02BE2D4F600DA5DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B07CA8A42BE2D4F500DA5DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07CA8D62BE2D52000DA5DBB /* Habit.swift in Sources */,
+				B07CA8D82BE2D76900DA5DBB /* AddHabitView.swift in Sources */,
+				B07CA8AE2BE2D4F500DA5DBB /* ContentView.swift in Sources */,
+				B0636DB62C26A7DC006E4C55 /* ActivityCardView.swift in Sources */,
+				B07737B12BE414B600349F29 /* DetailView.swift in Sources */,
+				B07CA8AC2BE2D4F500DA5DBB /* HabitGuru_2_0App.swift in Sources */,
+				B01F092F2C1A1E5C00A09389 /* HomeView.swift in Sources */,
+				B015F63E2C1B8455006B7009 /* GraphsView.swift in Sources */,
+				B0636DB82C26AB09006E4C55 /* DisplayActivityCardView.swift in Sources */,
+				B0545AF12C1FF1A700063EF4 /* NotificationHandler.swift in Sources */,
+				B0636DBA2C26AB92006E4C55 /* HealthManager.swift in Sources */,
+				B0C7871F2BFBF49B00318561 /* SplashScreenView.swift in Sources */,
+				B06DCC312C18E18100DF7211 /* TimeSpentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07CA8B42BE2D4F600DA5DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07CA8BD2BE2D4F600DA5DBB /* HabitGuru_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07CA8BE2BE2D4F600DA5DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07CA8C92BE2D4F600DA5DBB /* HabitGuru_2_0UITestsLaunchTests.swift in Sources */,
+				B07CA8C72BE2D4F600DA5DBB /* HabitGuru_2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B07CA8BA2BE2D4F600DA5DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07CA8A72BE2D4F500DA5DBB /* HabitGuru 2.0 */;
+			targetProxy = B07CA8B92BE2D4F600DA5DBB /* PBXContainerItemProxy */;
+		};
+		B07CA8C42BE2D4F600DA5DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07CA8A72BE2D4F500DA5DBB /* HabitGuru 2.0 */;
+			targetProxy = B07CA8C32BE2D4F600DA5DBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B07CA8CA2BE2D4F600DA5DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B07CA8CB2BE2D4F600DA5DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B07CA8CD2BE2D4F600DA5DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HabitGuru 2.0/HabitGuru 2.0.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"HabitGuru 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 85RAN4D22A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HabitGuru-2-0-Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Keep habits private to the user";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to display Health Kit Fetchings.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please allow access to display Health Kit Fetchings.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.01;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algo-Light-Software.HabitGuru-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B07CA8CE2BE2D4F600DA5DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HabitGuru 2.0/HabitGuru 2.0.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"HabitGuru 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 85RAN4D22A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HabitGuru-2-0-Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Keep habits private to the user";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to display Health Kit Fetchings.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please allow access to display Health Kit Fetchings.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.01;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algo-Light-Software.HabitGuru-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B07CA8D02BE2D4F600DA5DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85RAN4D22A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algo-Light-Software.HabitGuru-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitGuru 2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitGuru 2.0";
+			};
+			name = Debug;
+		};
+		B07CA8D12BE2D4F600DA5DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85RAN4D22A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algo-Light-Software.HabitGuru-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitGuru 2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitGuru 2.0";
+			};
+			name = Release;
+		};
+		B07CA8D32BE2D4F600DA5DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85RAN4D22A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algo-Light-Software.HabitGuru-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HabitGuru 2.0";
+			};
+			name = Debug;
+		};
+		B07CA8D42BE2D4F600DA5DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85RAN4D22A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algo-Light-Software.HabitGuru-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HabitGuru 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B07CA8A32BE2D4F500DA5DBB /* Build configuration list for PBXProject "HabitGuru 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07CA8CA2BE2D4F600DA5DBB /* Debug */,
+				B07CA8CB2BE2D4F600DA5DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07CA8CC2BE2D4F600DA5DBB /* Build configuration list for PBXNativeTarget "HabitGuru 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07CA8CD2BE2D4F600DA5DBB /* Debug */,
+				B07CA8CE2BE2D4F600DA5DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07CA8CF2BE2D4F600DA5DBB /* Build configuration list for PBXNativeTarget "HabitGuru 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07CA8D02BE2D4F600DA5DBB /* Debug */,
+				B07CA8D12BE2D4F600DA5DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07CA8D22BE2D4F600DA5DBB /* Build configuration list for PBXNativeTarget "HabitGuru 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07CA8D32BE2D4F600DA5DBB /* Debug */,
+				B07CA8D42BE2D4F600DA5DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B07CA8A02BE2D4F500DA5DBB /* Project object */;
+}
